@@ -1,6 +1,6 @@
 
 
-def new_graph(number_of_nodes = 1, nodes_name = {}):
+def new_graph(number_of_nodes = 1, nodes_name = None):
     adj = dict()
     if(nodes_name != None):
         for node in nodes_name:
